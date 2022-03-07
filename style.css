@@ -1,0 +1,266 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 120px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.join{
+    margin-left: 80px;
+}
+#login{
+    background-color: transparent;
+    border: none;
+    font-size:16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#register{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.nav-list li{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+.nav-list .active{
+    color: black;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+    margin: 80px 120px;
+}
+#header{
+    margin-top:80px;
+}
+#header-menu{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.tag{
+    color: grey;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -20px;
+
+}
+.primary-btn{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.default-btn{
+        text-decoration: none;
+        color:black;
+        background-color:transparent;
+        padding: 10px;
+        border-radius: 30px;
+        font-size: 15px;
+        border: grey 1px solid;
+}
+img{
+    margin-top: 10px;
+
+}
+.split{
+    margin-top: -80px;
+    background-color: black;
+    padding: 40px 40px 180px 40px;
+}
+.split-left{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+#first h3{
+    color: orangered;
+    font-size: 20px;
+}
+#first h1{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.split-right{
+    width: 50%; 
+    color: whitesmoke;
+}
+Marky{
+    color: orange;
+}
+.video{
+    margin-top: -180px;
+}
+.metrics{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.metrics p{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.metrics p span{
+    font-size: 18px;
+    color: gray;
+}
+.content{
+    background-color: whitesmoke;
+}
+.home{
+    align-items: center;
+    justify-content: center;
+
+}
+h5{
+    color: orangered;
+}
+h2{
+    color: black;
+    font-weight: bolder;
+}
+.services{
+    z-index: 1;
+    position: relative;
+    /* display: flex; */
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.creative{
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    padding: 40px;
+}
+.creative h3{
+    color: black;
+    font-weight: bold;
+}
+.creative h4{
+    color:grey;
+}
+
+.web{
+    padding: 40px;
+    background-color: black;
+    border: 1px solid grey;
+}
+.web h3{
+    color: white;
+    font-weight: bolder;
+}
+.web h4{
+    color:grey;
+}
+
+.digital{
+    padding: 40px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.digital h3{
+    color: black;
+    font-weight: bolder;
+}
+.digital h4{
+    color:grey;
+}
+
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+.standard{
+    padding: 40px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+}
+.standard h3{
+    font-weight: bolder;
+    color: black;
+}
+.standard h4{
+    color:grey;
+}
+
+.videoo{
+    padding: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.videoo h3{
+    font-weight: bolder;
+    color: black;
+}
+.videoo h4{
+    color:grey;
+}
+
+.app{
+    padding: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.app h3{
+    color: black;
+    font-weight: bolder;
+
+}
+.app h4{
+    color:grey;
+}
+.phase{
+    margin-top: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    /* flex: 50%; */
+}
+/* .final{
+    padding: 60px;
+} */
+.final h2{
+ text-transform: capitalize;
+ color: whitesmoke;   
+}
+.final h5{
+    text-transform: capitalize;
+    color: grey;
+}
+.but{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.final2{
+    padding:50%;
+}
